@@ -1,0 +1,63 @@
+html:5 --> apretas tab para crear la estructura
+IMPORTANTE cambiar el lang="es"
+
+table>(tr>th*2)+(tr>td*2)*3 ---> (formula)
+th= negrita, encabezado
+td= los de abajo, (se pone por cada palabra)
+tr= rodea cada fila
+h1= Titulo
+a= hipervinculos
+p=es como el cuerpo, parrafo q va
+.=atributo de tipo class (añadir clase)
+#= añadir ID 
+()= agrupar
+{}= añadir texto
+[]= añadir tributo
+
+<table>
+        <tr>
+            <th>Alumno</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>María</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Jhordy</td>
+            <td>11</td>
+        </tr>
+    </table>
+
+-en th es el encabezado del caudro
+-en td se rellena los datos q van dentro del cuadro
+-tr son las rows 
+
+
+ej: ul>(li>a)*3= para que salga una barra de hipernvinculos, como q en la cabaecer
+    <ul>
+        <li><a href="Principal.html">Principal</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="Pedidos.html">Pedidos</a></li>
+    </ul>
+
+
+
+
+<ol> se pone texto <ol> (es para lineas)
+<ul>=unordered list
+<li> =lista
+$= númera cuantos items hay
+$@3= quiero q empiece a numerar desde 3, (3,4,5..)
+li{item $$@-}*6 = significa que se va a repetir 6 veces
+	- el signo menos significa q es desendente
+	- como hay dos dolares esq hay dos digitos
+
+
+ligar estilo --> link:css
+margin me centra
+hover--> paraq solo funciones cuando se pase el mouse

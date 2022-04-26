@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+   <ul>
+        <li><a href="Principal.html">Principal</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="Pedidos.html">Pedidos</a></li>
+    </ul>
+    <h1>Pedidos</h1>
+    <form action="Respuesta.html" method="get"></form>
+        <h2>Información del cliente</h2>
+        <p>Nombre del cliente<input type="text" name="vcliente" id="idcliente" placeholder="Ingrese su nombre" required></p>
+        <p>Domicilio:<textarea name="vdomicilio" id="iddomicilio" cols="30" rows="10" placeholder="Ingrese su dirección" required></textarea></p>
+        <p>Teléfono<input type="text" name="vtel" id="idtel" placeholder="Ingrese su teléfono" required></p>
+        <h2>Información del producto</h2>
+        <p>Producto:<select name="" id="">
+                <option value="Miel">Miel</option>
+                <option value="MielCanela">Miel con canela</option>
+                <option value="MielPropoleo">Miel con Propóleo</option>
+            </select></p>
+            
+        <p>Tamaño:
+        Chico:<input type="radio" name="vtam" id="idchico" value="Chico">
+        Mediano<input type="radio" name="vtam" id="idmediano" value="Mediano" checked></p>
+        <p>Cantidad de unidades<input type="text" name="vcant" id="idcant" placeholder="Cantidad a comprar" requiered></p>
+    <p class="x">
+       <input class="y" type="submit" value="Enviar">
+       <input class="y" type="reset" value="limpiar"></p>
+        
+        
+        
+</body>
+</html>

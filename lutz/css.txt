@@ -1,0 +1,55 @@
+Para vincular el css con el archivo:
+	<link rel="stylesheet" href="estilo.css">
+
+css
+body: fondo
+	margin= para centrar
+h1:título
+	text shadow= la sobra: espacio horizontal, vertifal y radio de difuminacion y color con el q lo hace
+	text align= para que este centrado
+	color= dar color xd
+h2: lo mismo
+p: cuerpo, para parrafos
+	line-height= interlineado
+strong: negrita
+form: es todo el formato del formulario
+	{border: 2px solid red;
+	padding: 40px;
+	background color: antiquewhite;
+	width: 70%;
+	margin:auto}
+ul:
+	list-style-type= squuare(tipo de item),  upper-latin(A,B,C..)
+a: hipervinculos
+
+ID: selector de ID(img), como para identificarlos y luego poder editar c/u llamandolos
+	ej:<p id="cal">
+	-luego en css-
+	#cal{color:red;
+	     font-sizeL 15px;}
+class: selector de clase, para identificar(texto)
+	ej:<tr class="i">
+	-luego en css-
+	.i{background-color: yellow;}
+
+-si quiero centrar una imagen que no es bloque, osea body y eso-
+pongo= display: block
+	ej: #logo{width: 40%;
+	     	margin: auto;
+		display: block;}
+
+td,tr,th(encabezado),table(tabla)= son los comandos para hacer el cuadro.
+padding: me da los espacios de los costados del texto(la llave solo para simular la celda): [  hola  ]
+	padding: 10px (te da 10 de espacio para todo lado)
+	
+	borde-collapse: quitar bordes
+
+
+
+
+
+
+
+
+
+
